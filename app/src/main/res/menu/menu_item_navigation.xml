@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/hom1"
+            android:icon="@drawable/baseline_home_24"
+            android:title="HOME" />
+        <item
+            android:id="@+id/loction"
+            android:icon="@drawable/loction"
+            android:title="loction" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/kamo"
+            android:title="Help And Support" />
+
+        <item
+            android:id="@+id/Share"
+            android:icon="@drawable/share"
+            android:title="Share" />
+        <item
+            android:id="@+id/About"
+            android:icon="@drawable/profile2"
+            android:title="profile" />
+    </group>
+
+
+</menu>
+

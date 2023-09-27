@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="DarkGReen">#00393b</color>
+    <color name="DarkGReen1">#64CCC5</color>
+    <color name="DakGReen">#A3FBFF</color>
+    <color name="whites">#9EE7FF</color>
+    <color name="white1s">#9BE4FB</color>
+    <color name="whites1">#64D9FF</color>
+    <color name="whites1234">#44D1FF</color>
+    <color name="whites1235">#94E5FF</color>
+    <color name="whites126">#3AA9FF</color>
+    <color name="whites12">#00477E</color>
+    <color name="whites1238">#3AA9FF</color>
+    <color name="whites12387">#CBFFFB</color>
+    <color name="whites123">#007598</color>
+    <color name="silver">#7E7E7E</color>
+    <color name="w">#FFFBF1</color>
+    <color name="wh">#FFFEBC</color>
+    <color name="red">#FF0000</color>
+    <color name="app_theame">#009dff</color>
+    <color name="Green">#00FF19</color>
+    <color name="dark">#010A0C</color>
+    <color name="lowblur">#CAEDFF</color>
+    <color name="Button">#F9F9F9</color>
+
+
+
+</resources>

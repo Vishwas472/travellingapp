@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "128492920792",
+    "project_id": "travllingapp-118df",
+    "storage_bucket": "travllingapp-118df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128492920792:android:62ed2c4908c88fda355cad",
+        "android_client_info": {
+          "package_name": "com.example.travllingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128492920792-jgju92m04d8ou60jdnv5f2bapfc946q9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.travllingapp",
+            "certificate_hash": "4030f73cab39ee28a1f124c1f50501826e4883cd"
+          }
+        },
+        {
+          "client_id": "128492920792-qqmrds9rb2k5dojuuov75s7pvqhgsp6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAss-qlw0eKeqWnRkWGjRYHG9W-u0LSFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128492920792-qqmrds9rb2k5dojuuov75s7pvqhgsp6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

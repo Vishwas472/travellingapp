@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.DataaDisplay">
+
+
+    <ImageView
+
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_280sdp"
+        android:background="@drawable/nature"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:layout_width="@dimen/_20sdp"
+        android:id="@+id/imgLike"
+        android:layout_marginLeft="@dimen/_270sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/likew"/>
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="@dimen/_10sdp"-->
+<!--        android:layout_marginTop="@dimen/_20ssp"-->
+<!--        android:src="@drawable/backbuuton" />-->
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_240sdp"
+        android:layout_marginBottom="@dimen/_2sdp"
+        app:cardBackgroundColor="#FFFBF1"
+        app:cardCornerRadius="@dimen/_20sdp">
+
+        <LinearLayout
+            android:layout_width="445dp"
+            android:layout_height="470dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/people"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="City :"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:src="@drawable/loction" />
+
+                <TextView
+                    android:id="@+id/city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="State:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16ssp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/rate" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:text="4.5"
+                        android:textColor="@color/whites1238"
+                        android:textSize="@dimen/_20ssp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_85sdp">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_25sdp"
+                        android:src="@drawable/weather" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:text="32.7"
+                        android:textColor="@color/whites1238"
+                        android:textSize="@dimen/_20ssp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:text="Discription :"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:text="As a result, place has numerous definitions, from the simple “a space or location with meaning” to the more complex “an area having unique physical and human characteristics interconnected with other places.” There are three key components of place: location, locale, and a sense of place."
+                android:textColor="@color/silver"
+                android:textSize="@dimen/_10ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Your Trip "
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="@dimen/_14sdp"
+                    android:layout_height="@dimen/_14sdp"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_9sdp"
+                    android:src="@drawable/ruppes2" />
+
+                <TextView
+                    android:id="@+id/Price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15ssp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="@dimen/_14sdp"
+                    android:layout_height="@dimen/_14sdp"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_9sdp"
+                    android:src="@drawable/call" />
+
+
+                <TextView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginTop="8dp"
+                    android:text="+"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15ssp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Packege"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/placename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:text="Email :"
+                    android:textColor="@color/silver"
+                    android:textSize="@dimen/_15ssp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Facilities"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:text="Free Wifi"
+                android:textColor="@color/silver" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:text="Pool"
+                android:textColor="@color/silver" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Book"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_14"
+                android:textColor="@color/white"
+                android:text="Book" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <!--        <ImageView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:src="@drawable/star"/>-->
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="@dimen/_180sdp"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginLeft="@dimen/_70sdp"-->
+    <!--                    android:orientation="vertical">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="@dimen/_180sdp"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:orientation="horizontal">-->
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:text="For :"-->
+    <!--                        android:layout_marginLeft="@dimen/_5sdp"-->
+    <!--                        android:textColor="@color/silver"-->
+    <!--                        android:textSize="@dimen/_20ssp"-->
+    <!--                        android:textStyle="bold" />-->
+
+    <!--                    <TextView-->
+    <!--                        android:id="@+id/Price"-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:text=" $"-->
+    <!--                        android:layout_marginLeft="10dp"-->
+    <!--                        android:textColor="@color/black"-->
+    <!--                        android:textSize="@dimen/_15ssp"-->
+    <!--                        android:textStyle="bold" />-->
+    <!--                </LinearLayout>-->
+    <!--                    <TextView-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:text="⭐⭐⭐⭐⭐"-->
+    <!--                        android:textColor="@color/black"-->
+    <!--                        android:textSize="@dimen/_10ssp"-->
+    <!--                        android:layout_marginLeft="@dimen/_5sdp"-->
+    <!--                        android:textStyle="bold" />-->
+    <!--                </LinearLayout>-->
+    <!--        </LinearLayout>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="horizontal">-->
+
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/city"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginLeft="@dimen/_20sdp"-->
+    <!--                android:text="Stat :"-->
+    <!--                android:textColor="@color/silver"-->
+    <!--                android:textSize="@dimen/_18ssp"-->
+    <!--                android:textStyle="bold" />-->
+
+    <!--        </LinearLayout>-->
+
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="@dimen/_10sdp"-->
+    <!--            android:orientation="horizontal">-->
+
+
+    <!--            <TextView-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginLeft="@dimen/_20sdp"-->
+    <!--                android:textColor="@color/silver"-->
+    <!--                android:text="As a result, place has numerous definitions, from the simple “a space or location with meaning” to the more complex “an area having unique physical and human characteristics interconnected with other places.” There are three key components of place: location, locale, and a sense of place."-->
+    <!--                android:textSize="@dimen/_12ssp"-->
+    <!--                android:textStyle="bold" />-->
+
+    <!--        </LinearLayout>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="@dimen/_10sdp"-->
+    <!--            android:orientation="horizontal">-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginLeft="@dimen/_20sdp"-->
+    <!--                android:text="Contect Number :"-->
+    <!--                android:textSize="@dimen/_15ssp"-->
+    <!--                android:textColor="@color/black"-->
+    <!--                android:textStyle="bold" />-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/Packege"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginLeft="@dimen/_10sdp"-->
+    <!--                android:textSize="@dimen/_17ssp"-->
+    <!--                android:textColor="@color/silver"-->
+    <!--                android:textStyle="bold" />-->
+
+
+    <!--        </LinearLayout>-->
+    <!--&lt;!&ndash;        <LinearLayout&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;            android:orientation="horizontal">&ndash;&gt;-->
+
+    <!--&lt;!&ndash;            <TextView&ndash;&gt;-->
+    <!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;                android:layout_marginLeft="@dimen/_20sdp"&ndash;&gt;-->
+    <!--&lt;!&ndash;                android:text="Contect :"&ndash;&gt;-->
+    <!--&lt;!&ndash;                android:textSize="@dimen/_15ssp"&ndash;&gt;-->
+    <!--&lt;!&ndash;                android:textColor="@color/black"&ndash;&gt;-->
+    <!--&lt;!&ndash;                android:textStyle="bold" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;            <TextView&ndash;&gt;-->
+    <!--&lt;!&ndash;                android:id="@+id/Contect"&ndash;&gt;-->
+    <!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;                android:layout_marginLeft="@dimen/_10sdp"&ndash;&gt;-->
+    <!--&lt;!&ndash;                android:textSize="@dimen/_17ssp"&ndash;&gt;-->
+    <!--&lt;!&ndash;                android:text="7069033821"&ndash;&gt;-->
+    <!--&lt;!&ndash;                android:textColor="@color/silver"&ndash;&gt;-->
+    <!--&lt;!&ndash;                android:textStyle="bold" />&ndash;&gt;-->
+
+
+    <!--&lt;!&ndash;        </LinearLayout>&ndash;&gt;-->
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="@dimen/_10sdp"-->
+    <!--            android:orientation="horizontal">-->
+
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/placename"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginLeft="@dimen/_20sdp"-->
+    <!--                android:text="Email :"-->
+    <!--                android:textColor="@color/silver"-->
+    <!--                android:textSize="@dimen/_15ssp"-->
+    <!--                android:textStyle="bold" />-->
+
+    <!--        </LinearLayout>-->
+
+    <!--    </LinearLayout>-->
+
+</RelativeLayout>
